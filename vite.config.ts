@@ -1,0 +1,1 @@
+import{defineConfig}from'vite';export default defineConfig({build:{lib:{entry:'src/index.tsx',name:'AkhrasUI',formats:['es'],fileName:'index'},rollupOptions:{external:['react','react-dom','react/jsx-runtime']}}});

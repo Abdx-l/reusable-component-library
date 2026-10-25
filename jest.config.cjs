@@ -1,0 +1,1 @@
+module.exports={testEnvironment:'jsdom',transform:{'^.+\\.tsx?$':['ts-jest',{tsconfig:{module:'CommonJS',jsx:'react-jsx',esModuleInterop:true}}]},setupFilesAfterEnv:['@testing-library/jest-dom'],moduleNameMapper:{'\\.css$':'<rootDir>/style-mock.cjs'}};
